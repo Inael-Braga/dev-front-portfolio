@@ -1,0 +1,55 @@
+.aboutDiv{
+    position: relative;
+}
+.overlay1{
+    height: 178px;
+    width: 55px;
+    border: solid 2px var(--brand-color);
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, 30%);
+    animation: moveUpDown 2s infinite alternate;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+
+.overlay2{
+    height: 34px;
+    width: 110px;
+    border: solid 2px var(--brand-color);
+    border-radius: 30px;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-25%, -50%);
+    animation: moveLeftRight 2.5s infinite alternate;
+}
+
+@keyframes moveLeftRight {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 50px;
+    }
+  }
+
+.imageprofile{
+    height: 506px;
+    width: 454px;
+    border-radius: 30px;
+    border: none;
+    background-image: url(../assets/Myp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}

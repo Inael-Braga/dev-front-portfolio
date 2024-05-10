@@ -1,0 +1,34 @@
+.About{
+    display: flex;
+    background-image: url(../assets/shinehero.svg);
+    background-repeat: no-repeat;
+    background-position: 10% -30% ;
+
+
+}
+.aboutContent{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+/* .aboutLeft{
+    width: calc(50% - 1rem);
+    text-align: left;
+} */
+
+/* .aboutRight{
+    width: calc(50% - 1rem);
+} */
+
+
+.aboutLeft p{
+    max-width: 39rem;
+    padding: 1.6rem 0 5rem 0;
+}
+
+.aboutLeft h2{
+    max-width: 39rem;
+}
+

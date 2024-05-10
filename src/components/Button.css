@@ -1,0 +1,27 @@
+Button{
+    color: var(--light);
+    border-radius: 3rem;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.primary{
+    background-color: var(--brand-color);
+    border: solid 1px var(--brand-color);
+}
+.secondary{
+    background: none;
+    border: solid 1px var(--brand-color);}
+
+/* HOVER */
+.primary:hover{
+    background: none;
+    border: solid 1px var(--brand-color);
+}
+
+.secondary:hover{
+    background-color: var(--brand-color);
+    border: solid 1px var(--brand-color);
+}

@@ -1,0 +1,28 @@
+.footerdiv{
+    width: 100%;
+    background-color: #000000;
+    padding: 5rem 0;
+}
+.footerContainer{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.ftop h4{
+    color: var(--brand-color);
+}
+
+.fmid{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 11.85rem 0 5rem 0;
+    margin: 0 auto;
+}
+.fbottom{
+    border-top: 1px solid var(--light);
+    width: 100%;
+    padding: 2rem;
+}

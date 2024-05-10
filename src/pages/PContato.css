@@ -1,0 +1,10 @@
+.Contato{
+    width: 100%;
+}
+.ContContainer{
+    width: 65%;
+    margin: 0 auto;
+}
+.ContTitulo span{
+    color: var(--dark3);
+}

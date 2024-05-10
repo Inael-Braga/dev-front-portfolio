@@ -1,0 +1,16 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin:  0 auto;
+}
+
+.HeaderContainer{
+    padding: 2.5rem 0;
+}
+
+.Header ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}

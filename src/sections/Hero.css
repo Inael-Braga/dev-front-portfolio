@@ -1,0 +1,10 @@
+.heroContainer{
+    background-image: url(../assets/shinehero.svg);
+    background-repeat: no-repeat;
+    background-position: 60% 10% ;
+}
+.heroContainer h1{
+    max-width: 55rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+
+.MyProjContainer{
+    width: 65%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+table{
+    text-align: left;
+
+}
+.MyProjDiv h4{
+    padding: 1rem 0;
+}
+.MyProjDiv h2{
+    padding-bottom: 3.375rem;
+}
+
+.Cardsproj{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.TitulodoCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+.TitulodoCard hr{
+    width: 4rem;
+    height: 1px;
+    border-color: var(--brand-color);
+}
+tr{
+    font-size: 1rem;
+    color: var(--dark3);
+}
+th{
+    font-weight: 500;
+    color: var(--light);
+}
+.CardX img{
+    height: 38.75rem;
+    width: 100%;
+    border-radius: 2rem;
+    
+}
+.CardX{
+    text-align: left;
+    width: calc(50% - 1rem);
+    margin-bottom: 6rem;
+}
+
