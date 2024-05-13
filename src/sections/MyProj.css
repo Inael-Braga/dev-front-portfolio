@@ -22,7 +22,9 @@ table{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
+
 .TitulodoCard{
     display: flex;
     flex-direction: row;
@@ -47,11 +49,15 @@ th{
     height: 38.75rem;
     width: 100%;
     border-radius: 2rem;
+    object-fit: cover;
     
 }
 .CardX{
     text-align: left;
-    width: calc(50% - 1rem);
+    padding: 10px;
+    width: calc(100% - 2rem);
+    flex: 1 0 50%;
     margin-bottom: 6rem;
+    object-fit: cover;
 }
 

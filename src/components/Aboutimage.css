@@ -1,5 +1,6 @@
 .aboutDiv{
     position: relative;
+
 }
 .overlay1{
     height: 178px;
@@ -47,9 +48,10 @@
     width: 454px;
     border-radius: 30px;
     border: none;
-    background-image: url(../assets/Myp.png);
+    background-image: url(../assets/unnamed.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    filter: grayscale();
     
 }

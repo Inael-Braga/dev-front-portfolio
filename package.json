@@ -1,7 +1,7 @@
 {
   "name": "dev-front-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Inael-Braga.github.io/dev-front-portfolio",
+  "homepage": "https://Inael-Braga.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d buildnpm run deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

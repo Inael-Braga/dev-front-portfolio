@@ -20,11 +20,14 @@ body{
     background-color: var(--dark1);
     color: var(--light);
     font-family: "Syne", sans-serif;
+    overflow-x: hidden;
 
     
 }
 
+
 /* FONTES  */
+
 
 h1{
     font-size: 4.5rem; /*72px*/
@@ -70,7 +73,7 @@ a:link{
     color: var(--light);
 }
 a:hover{
-    color: var(--light);
+    color: var(--brand-color);
     opacity: 1; 
 }
 
@@ -91,4 +94,56 @@ section{
 
 section:last-child{
     padding: 0;
+}
+
+.iconResume{
+    width: 2rem;
+    border-radius: 4px;
+}
+
+.Badgeinf{
+    background-color: var(--light);
+    width: max-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (min-width: 574px) and (max-width: 1024px) {
+
+    *{
+        h1{ font-size: 3.5rem;}
+        h2{ font-size: 3rem;}
+        h3{ font-size: 2.5rem;}
+        h4{ font-size: 1.25rem;}
+        p{ font-size: 1.25rem;}
+        Button{width: 90%; margin: 0 auto;}
+    }
+    .content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .content h2{
+        text-align: center;
+    }
+    .content p{
+        text-align: center;
+    }
+
+    /* HOME  */
+    .aboutLeft{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutRight{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    /* CONTATO */
+
 }

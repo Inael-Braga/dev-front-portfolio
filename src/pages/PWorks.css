@@ -1,24 +1,28 @@
-.Contato{
+.Works{
     width: 100%;
     padding: 10rem 0;
     background-image: url(../assets/shinehero.svg);
     background-repeat: no-repeat;
     background-position: 10% -10%;
 }
-.ContContainer{
+
+.WorksContainer{
     width: 65%;
     margin: 0 auto;
 }
-.ContTitulo span{
+
+
+.WorksTitle span{
     color: var(--dark3);
 }
-.ContTitulo hr{
+.WorksTitle hr{
     margin: 5rem 0;
     height: 1px;
     border-color: var(--dark3);
 }
-.ContContainer img{
-    height: auto;
+.ButtonContato{
     width: 100%;
-    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
 }

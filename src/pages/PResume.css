@@ -1,0 +1,69 @@
+.Resume{
+    width: 100%;
+    padding: 10rem 0;
+    background-image: url(../assets/shinehero.svg);
+    background-repeat: no-repeat;
+    background-position: 10% -10%;
+    
+}
+
+.ResumeContainer{
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+.ResumeTitle span{
+    color: var(--dark3);
+}
+.ResumeTitle hr{
+    margin: 5rem 0;
+    height: 1px;
+    border-color: var(--dark3);
+}
+.ButtonContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+.imageprof{
+    scale: 60%;
+    width: min-content;
+    height: auto;
+}
+.resumeTop{
+    display: flex;
+    align-items: center;
+}
+.nomeCargo{
+    margin-bottom: 1.5rem;
+}
+.resumeSection{
+    width: calc(33% - 2rem);
+}
+.resumeSection h4{
+    margin-top: 2rem;
+}
+.resumeSection span{
+    color: var(--dark3);
+    font-size: 1rem;
+    text-wrap: nowrap;
+}
+.ResumeContainer .Badgeinf{
+    margin-top: 2rem;
+}
+.sectionContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.sectionResume{
+    margin: 4rem 0;
+}
+.sectionResume hr{
+    margin-top: 4rem;
+}
+.Sections{
+    display: flex;
+    justify-content: space-between;
+}

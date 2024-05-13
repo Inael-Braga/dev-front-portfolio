@@ -4,6 +4,8 @@ import Hero from "../sections/Hero";
 import About from "../sections/About";
 import Inspiracional from "../sections/Inspiracional";
 import MyProj from "../sections/MyProj";
+// import CardWorks from "../sections/CardWords";
+
 
 function PHome() {
     return (
@@ -11,6 +13,7 @@ function PHome() {
             <Hero />
             <About />
             <MyProj />
+            {/* <CardWorks /> */}
             <Inspiracional />
         </>
     );

@@ -1,0 +1,19 @@
+.BadgeDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.Badge{
+    background-color: var(--light);
+    border-radius: 0.5rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.Badge a{
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+.FormContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.FormContainer Button{
+    margin-top: 2rem;
+    /* float: right; */
+}
+.FormContainer label{
+    font-size: 1.5rem;
+}
+
+.FormContainer input{
+    height: 3rem;
+    width: 100%;
+    background: none;
+    border: 0 0 1px 0;
+    margin: 0 0 3rem;
+    padding: 0 0.5rem;
+    border-top: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 1rem;
+}
+
+.FormContainer input:focus{
+    border: 0 0 1px 0;
+    border-top: none;
+    border-left-style: none;
+    border-right-style: none;
+    color: var(--light);
+    padding: 0 0.5rem;
+    outline: none;
+}
+.FormContainer input:not(:focus){
+    color: var(--dark3);
+}
+
+
+.FormContainer textarea{
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+    height: 10rem;
+    width: 100%;
+    background: none;
+    border-top: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 1rem;
+    color: var(--light);
+    outline: none;
+
+}
+
+.FormContainer textarea:focus{
+    outline: none;
+}
+.FormLeft{
+    flex: 1;
+}
+.FormRight{
+    flex: 1;
+}
+
+Form{
+    width: 100%;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (min-width: 345px) and (max-width: 1024px) {
+
+
+    .FormContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .FormLeft, .FormRight {
+        flex: 1;
+    }
+    .FormLeft{
+        padding-bottom: 3.5rem;
+    }
+    .FormContainer Button{
+        width: 100%;
+    }
+
+}

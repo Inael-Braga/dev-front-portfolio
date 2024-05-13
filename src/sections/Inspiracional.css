@@ -20,7 +20,8 @@
 
 
 .inspContainer h1{
-    font-size: 300px;
+    font-size: 19rem;
+    color: var(--brand-color);
 }
 
 .inspLeft{
