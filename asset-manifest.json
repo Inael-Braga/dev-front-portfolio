@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/dev-front-portfolio/static/css/main.6eeb0e93.css",
-    "main.js": "/dev-front-portfolio/static/js/main.9b4465c6.js",
+    "main.css": "/dev-front-portfolio/static/css/main.986624f9.css",
+    "main.js": "/dev-front-portfolio/static/js/main.42d9c954.js",
     "static/js/453.a3cbf282.chunk.js": "/dev-front-portfolio/static/js/453.a3cbf282.chunk.js",
+    "static/media/compcontact.png": "/dev-front-portfolio/static/media/compcontact.07329b2fa760762c7026.png",
     "static/media/exampleproj.png": "/dev-front-portfolio/static/media/exampleproj.a67f3c285cdae00c072f.png",
-    "static/media/Myp.png": "/dev-front-portfolio/static/media/Myp.eefd9080392e43814a2c.png",
+    "static/media/cardorder.jpg": "/dev-front-portfolio/static/media/cardorder.daf9549ceb38872eb5c7.jpg",
+    "static/media/card2col.jpg": "/dev-front-portfolio/static/media/card2col.827631ffe21376e16b48.jpg",
+    "static/media/cardnft.jpg": "/dev-front-portfolio/static/media/cardnft.ff6a9a229b0355b47f21.jpg",
+    "static/media/unnamed.jpg": "/dev-front-portfolio/static/media/unnamed.d3afecf40f94fff81d08.jpg",
+    "static/media/whatsapp.svg": "/dev-front-portfolio/static/media/whatsapp.66fcbff1881563cb5ded3a3057da0ad9.svg",
+    "static/media/github.svg": "/dev-front-portfolio/static/media/github.2364ab86ce37859f233e45f32fcd2f0e.svg",
+    "static/media/linkedin.svg": "/dev-front-portfolio/static/media/linkedin.89c537fb812d09486765528d5c269e15.svg",
+    "static/media/mail.svg": "/dev-front-portfolio/static/media/mail.15f0dc4ca50d36e53e13ed758748291b.svg",
     "index.html": "/dev-front-portfolio/index.html",
     "static/media/shinehero.svg": "/dev-front-portfolio/static/media/shinehero.8f1e20b79333160206e3.svg",
-    "main.6eeb0e93.css.map": "/dev-front-portfolio/static/css/main.6eeb0e93.css.map",
-    "main.9b4465c6.js.map": "/dev-front-portfolio/static/js/main.9b4465c6.js.map",
+    "main.986624f9.css.map": "/dev-front-portfolio/static/css/main.986624f9.css.map",
+    "main.42d9c954.js.map": "/dev-front-portfolio/static/js/main.42d9c954.js.map",
     "453.a3cbf282.chunk.js.map": "/dev-front-portfolio/static/js/453.a3cbf282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6eeb0e93.css",
-    "static/js/main.9b4465c6.js"
+    "static/css/main.986624f9.css",
+    "static/js/main.42d9c954.js"
   ]
 }
